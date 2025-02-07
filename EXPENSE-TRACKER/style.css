@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+}
+
+.cont{
+    background-color: rgb(11, 10, 10);
+    width: 400px;
+    min-height: 300px;
+    max-height: fit-content;
+    color: white;
+    margin: auto;
+    margin-top: 175px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+#add{
+    background-color: rgb(39, 39, 222);
+    color: white;
+    height: 40px;
+    width: 25%;
+    border-radius: 6px;
+    border: none;
+    transition: background-color, 0.3s;
+}
+
+#add:hover{
+    cursor: pointer;
+    background-color: rgb(20, 20, 191);
+}
+
+#expense-form input{
+    width: 25%;
+    height: 40px;
+    background-color: rgb(37, 36, 36);
+    text-align: left;
+    margin: 5px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+}
+
+#expense-list{
+    width: 80%;
+    list-style: none;
+    margin: auto;
+    margin-left: 0;
+}
+
+#expense-list li{
+
+    width: 100%;
+    background-color: rgb(42, 42, 39);
+    border-radius: 5px;
+    height: 40px;
+    /* text-align: center; */
+    /* justify-content: center; */
+    display: flex;
+    /* padding-left: 10%; */
+    padding: 10px;
+    /* padding-right: 10%; */
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+
+
+}
+
+.deletebtn{
+    background-color: rgb(39, 39, 222);
+    color: white;
+    height: 35px;
+    width: 25%;
+    border-radius: 6px;
+    border: none;
+    transition: background-color, 0.3s;
+}
+
+.deletebtn:hover{
+    cursor: pointer;
+    background-color: rgb(20, 20, 191);
+}

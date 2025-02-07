@@ -1,0 +1,1 @@
+1. #go to freeapi.app then --> go to cooked in docs -->then go to public APIs -->you can check out those free api's and make another project using those.

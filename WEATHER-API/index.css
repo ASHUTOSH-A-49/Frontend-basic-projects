@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+
+}
+.cont{
+    background-color: rgb(19, 18, 18);    
+    max-height: auto;
+    width: 400px;
+    color: white;
+    margin: 15% auto;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+}
+.hidden{
+    visibility: hidden;
+}
+
+#error-msg{
+    color: red;
+}
+
+#get-weather-btn:hover{
+    background-color: rgb(51, 24, 255);
+}
+#get-weather-btn{
+    width: 25%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgb(61, 61, 254);
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.4s;
+}
+
+.input-container{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+input[type="text"]{
+    width: 70%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    
+    border: none;
+    border-radius: 5px;
+}
